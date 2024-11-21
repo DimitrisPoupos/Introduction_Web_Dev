@@ -6,16 +6,13 @@ body{
     margin:0;
     padding: 0;
 }
-a{
-    
-}
 
 
 h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-
+    margin: 0;
 }
 
 h2{
@@ -101,7 +98,6 @@ button{
 }
 
 
-
 .Random_info{
     height: 400px;
     display: flex;
@@ -133,15 +129,72 @@ button{
 }
 
 .Quote{
-    height:200px;
+    height:350px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.Testimonial{
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2937;
+    width: 900px;
+    margin: 0;
+    
+}
+
+.Signature{
+    font-weight: 600;
+    justify-self: end;
+    margin: 0;
+    margin-right: 80px;
+}
+
+.CTA{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTA p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.CTA .small_p{
+    font-size: 12px;
+    color:#F9FAF8;
+}
+
+.Blue_section{
+    gap: 100px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 900px;
+    border-radius: 5px;
+}
+
+.CTA button{
+    border: solid 2px #e5e7eb;
+    
+}
 
 
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 70px;
 
 }
 
